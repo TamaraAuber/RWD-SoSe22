@@ -1,0 +1,28 @@
+header, main{
+    background: #1F1C1B;
+}
+
+.headerLogo{
+    padding: 0.5em;
+}
+
+.heroshot{
+    height: 990px;
+    background-image: url("img/HeroShotBig-min.png");
+    
+}
+
+.heroshotText{
+    color: white;
+    font-family: 'Gaegu', cursive;
+    padding: 10%;
+}
+
+.heroshotText h1{
+    font-size: 84px;
+}
+
+.section{
+    height: 850px;
+    color: white;
+}
