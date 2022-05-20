@@ -1,5 +1,6 @@
-header, main{
+header, main, footer{
     background: #1F1C1B;
+    color: white;
 }
 
 .headerLogo{
@@ -25,4 +26,57 @@ header, main{
 .section{
     height: 850px;
     color: white;
+}
+
+.colors {
+   font-family: 'Gaegu', cursive;   
+}
+
+.colors img{
+    height: 70%;
+}
+
+.colorRowTwo{
+    margin-top: -20em;
+}
+
+.sectionCallToAction img{ 
+    height: 75%;
+}
+
+.callToActionBtn{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 300px;
+    font-size: 38px;
+    color: white;
+    font-family: 'Gaegu', cursive;
+    background-color: #f47719ff;
+    border: none;
+    border-radius: 10px;
+}
+
+.contact input{
+    width: 100%;
+}
+
+.contact button{
+    width: 100%;
+    font-size: 23px;
+    color: white;
+    font-family: 'Gaegu', cursive;
+    background-color: #f47719ff;
+    border: none;
+    border-radius: 5px;
+}
+
+.socialMedia img{
+    width: 3%;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+.finePrint{
+    margin-top: 100px;
+    text-align: center;
 }
