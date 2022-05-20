@@ -8,46 +8,60 @@ header, main, footer{
 }
 
 .heroshot{
-    height: 990px;
-    background-image: url("img/HeroShotBig-min.png");
-    
+    height: 450px;
+    background-image: url("img/HeroShotSmall-min.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
 }
 
 .heroshotText{
     color: white;
     font-family: 'Gaegu', cursive;
     padding: 10%;
+    height: 50px;
+    text-align: center;
 }
 
 .heroshotText h1{
-    font-size: 84px;
+    font-size: 38px;
+    margin-top: -65px;
+}
+
+.heroshotText p{
+    font-size: 14px;
+    margin-top: -10px;
 }
 
 .section{
-    height: 850px;
-    color: white;
+    height: 650px;
 }
 
-.colors {
-   font-family: 'Gaegu', cursive;   
+.subheadline{
+    font-family: 'Gaegu', cursive;   
 }
 
-.colors img{
-    height: 70%;
+.productImg img{
+    width: 100%;
 }
 
-.colorRowTwo{
-    margin-top: -20em;
+.closerLook img{
+    width: 100%;
+}
+
+.colors{
+    display: none;
 }
 
 .sectionCallToAction img{ 
-    height: 75%;
+    height: 25%;
 }
 
 .callToActionBtn{
     width: 100%;
-    margin-top: 50px;
-    margin-bottom: 300px;
+    margin-top: 30px;
+    margin-bottom: 150px;
     font-size: 38px;
     color: white;
     font-family: 'Gaegu', cursive;
@@ -71,8 +85,8 @@ header, main, footer{
 }
 
 .socialMedia img{
-    width: 3%;
-    margin-right: 5px;
+    width: 15%;
+    margin-right: 25px;
     margin-top: 20px;
 }
 
@@ -80,3 +94,66 @@ header, main, footer{
     margin-top: 100px;
     text-align: center;
 }
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .heroshot{
+        height: 990px;
+        background-image: url("img/HeroShotBig-min.png");
+        display: flex;
+        align-items: flex-start;
+        justify-content: end;
+    }
+
+    .heroshotText{
+        color: white;
+        font-family: 'Gaegu', cursive;
+        padding: 10%;
+    }
+
+    .heroshotText h1{
+        font-size: 84px;
+    }
+
+    .section{
+        height: 850px;
+    }
+
+    .productImg img{
+        width: 70%;
+    }
+
+    .closerLook img{
+        width: 60%;
+    }
+
+    .colors{
+        display: block;
+    }
+
+    .colors img{
+        height: 70%;
+    }
+
+    .colorRowTwo{
+        margin-top: -20em;
+    }
+
+    .sectionCallToAction img{ 
+        height: 75%;
+    }
+
+    .callToActionBtn{
+        margin-top: 50px;
+        margin-bottom: 300px;
+    }
+
+
+    .socialMedia img{
+        width: 3%;
+        margin-right: 5px;
+        margin-top: 20px;
+    }
+}
+
