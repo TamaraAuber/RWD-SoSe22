@@ -3,12 +3,16 @@ header, main, footer{
     color: white;
 }
 
+h3{
+    text-align: center;
+}
+
 .headerLogo{
     padding: 0.5em;
 }
 
 .heroshot{
-    height: 450px;
+    height: 600px;
     background-image: url("img/HeroShotSmall-min.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -47,7 +51,7 @@ header, main, footer{
 }
 
 .closerLook img{
-    width: 100%;
+    width: 90%;
 }
 
 .colors{
@@ -55,7 +59,7 @@ header, main, footer{
 }
 
 .sectionCallToAction img{ 
-    height: 25%;
+    height: 22%;
 }
 
 .callToActionBtn{
@@ -68,6 +72,15 @@ header, main, footer{
     background-color: #f47719ff;
     border: none;
     border-radius: 10px;
+}
+
+.productPrice{
+    text-align: center;
+}
+
+.productPrice strong{
+    font-size: 28px;
+    line-height: 180%;
 }
 
 .contact input{
@@ -84,10 +97,21 @@ header, main, footer{
     border-radius: 5px;
 }
 
-.socialMedia img{
-    width: 15%;
-    margin-right: 25px;
+.footerLinks{
+    text-align: center;
+}
+
+.footerLinks div{
     margin-top: 20px;
+}
+
+.socialMedia{
+    justify-content: center;
+}
+
+.socialMedia img{
+    width: 100%;
+    margin-top: 40px;
 }
 
 .finePrint{
@@ -98,6 +122,10 @@ header, main, footer{
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+    h3{
+        text-align: left;
+    }
+
     .heroshot{
         height: 990px;
         background-image: url("img/HeroShotBig-min.png");
@@ -149,10 +177,16 @@ header, main, footer{
         margin-bottom: 300px;
     }
 
+    .footerLinks{
+        text-align: left;
+    }
+
+    .socialMedia{
+        justify-content: flex-start;
+    }
 
     .socialMedia img{
-        width: 3%;
-        margin-right: 5px;
+        width: 100%;
         margin-top: 20px;
     }
 }
