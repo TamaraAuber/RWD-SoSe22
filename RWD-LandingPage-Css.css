@@ -131,6 +131,7 @@ h3, p{
 .slider{
     border: solid;
     border-radius: 30px;
+    height: 200px;
     margin: 50px;
 }
 
@@ -141,6 +142,7 @@ h3, p{
 .rewiewSlider p{
     text-align: center;
     font-family: 'Gaegu', cursive;
+    font-size: 20px;
 }
 
 .reviewCarousel-inner{
