@@ -68,8 +68,8 @@ h3, p, span{
     align-items: flex-start;
 }
 
-.descriptionText p{
-    margin-top: -175px;
+.descriptionText span{
+    margin-top: -100px;
 }
 
 .closerLook img{
@@ -85,7 +85,7 @@ h3, p, span{
 }
 
 .closerLookSize img{
-    margin-top: -300px;
+    margin-top: -100px;
 }
 
 .colors{
@@ -94,6 +94,7 @@ h3, p, span{
 
 .colorCarouselMobile{
     display: block;
+    margin-top: 100px;
 }
 
 .colorCarouselMobile .carousel-indicators li{
@@ -232,8 +233,6 @@ h3, p, span{
         margin-bottom: 40px;
     }
 
-  
-
     .rewiewSlider{
         margin-top: 200px;
     }
@@ -254,11 +253,78 @@ h3, p, span{
         justify-content: end;
     }
 
+    .descriptionText span{
+        margin-top: 0px;
+    }
+
+    .section{
+        height: 400px;
+    }
+
+    .closerLook img{
+        width: 100%;
+    }
+
+    .closerLookFaces img{
+        margin-top: 0px;
+    }
+
+    .closerLookEdges{
+        text-align: center;
+    }
+    
+    .closerLookEdges img {
+        margin-top: 0px;
+    }
+    
+    .closerLookSize img{
+        margin-top: 0px;
+    }
+
     .colors{
         display: block;
+        margin-top: 100px;
     }
+
     .colors img{
         height: 30%;
+    }
+
+    .colorCarouselMobile{
+        display: none;
+    }
+
+    .colorRowOne{
+        height: 200px;
+    }
+
+    .colorRowTwo{
+        height: 200px;
+    }
+
+    .promotionImg{
+        height: 500px;
+    }
+
+    .productPrice p{
+        text-align: center;
+    }
+
+    .footerLinks{
+        text-align: left;
+    }
+
+    .socialMedia{
+        justify-content: flex-start;
+    }
+
+    .socialMedia img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .finePrint p{
+        text-align: center;
     }
 } 
 
@@ -300,20 +366,12 @@ h3, p, span{
         width: 60%;
     }
 
-    .colors{
-        display: block;
-    }
-
     .colors img{
         height: 60%;
     }
 
     .colorRowTwo{
         margin-top: -20em;
-    }
-
-    .colorCarouselMobile{
-        display: none;
     }
 
     .rewiewSlider p{
