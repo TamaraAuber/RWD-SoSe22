@@ -246,11 +246,15 @@ h3, p, span{
     }
 
     .heroshot{
-        height: 400px;
+        height: 500px;
         background-image: url("img/HeroShotBig-min.png");
         display: flex;
         align-items: flex-start;
         justify-content: end;
+    }
+
+    .heroshotText{
+        margin-top: 40px;
     }
 
     .descriptionText span{
@@ -328,6 +332,18 @@ h3, p, span{
     }
 } 
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .heroshot{
+        height: 600px;
+    }
+
+    .heroshotText p{
+        text-align: center;
+    }
+
+} 
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
@@ -351,7 +367,7 @@ h3, p, span{
     }
 
     .heroshotText p{
-        text-align: center;
+        font-size: 32px;
     }
 
     .section{
@@ -370,8 +386,12 @@ h3, p, span{
         height: 60%;
     }
 
+    .colorRowOne{
+        height: 400px;
+    }
+
     .colorRowTwo{
-        margin-top: -20em;
+        height: 400px;
     }
 
     .rewiewSlider p{
@@ -386,22 +406,6 @@ h3, p, span{
         margin-top: 50px;
         margin-bottom: 300px;
     }
-
-    .footerLinks{
-        text-align: left;
-    }
-
-    .socialMedia{
-        justify-content: flex-start;
-    }
-
-    .socialMedia img{
-        width: 100%;
-        margin-top: 20px;
-    }
-
-    .finePrint p{
-        text-align: center;
-    }
+  
 }
 
