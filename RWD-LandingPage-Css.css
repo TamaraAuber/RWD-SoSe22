@@ -1,6 +1,14 @@
+html,body{
+    overflow-x: hidden;
+}
+
 header, main, footer{
     background: #1F1C1B;
     color: white;
+}
+
+main{
+    padding-bottom: 60px;
 }
 
 footer{
@@ -162,6 +170,14 @@ h3, p, span{
 
 .promotionImg{
     height: 300px;
+    position: relative;
+}
+
+.IcoPanda{
+    position: absolute;
+    right: auto;
+    left: auto;
+    z-index: 1;
 }
 
 .callToActionBtn{
@@ -257,6 +273,10 @@ h3, p, span{
         margin-top: 40px;
     }
 
+    .productDescription{
+        margin-top: -100px;
+    }
+
     .descriptionText span{
         margin-top: 0px;
     }
@@ -307,10 +327,11 @@ h3, p, span{
     }
 
     .promotionImg{
-        height: 500px;
+        height: 700px;
     }
 
     .productPrice p{
+        margin-top: -100px;
         text-align: center;
     }
 
@@ -342,6 +363,10 @@ h3, p, span{
         text-align: center;
     }
 
+    .section{
+        height: 850px;
+    }
+
 } 
 
 
@@ -370,8 +395,8 @@ h3, p, span{
         font-size: 28px;
     }
 
-    .section{
-        height: 850px;
+    .productDescription{
+        margin-top: -300px;
     }
 
     .productImg img{
@@ -380,6 +405,10 @@ h3, p, span{
 
     .closerLook img{
         width: 60%;
+    }
+
+    .closerLookSize img{
+        margin-left: 100px;
     }
 
     .colors img{
