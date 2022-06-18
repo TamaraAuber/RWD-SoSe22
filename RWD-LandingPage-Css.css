@@ -240,7 +240,7 @@ h3, p, span{
     text-align: center;
 }
 
-@media only screen and (min-width: 475px) {
+@media only screen and (min-width: 425px) {
     .heroshot{
         height: 700px;
     }
@@ -251,6 +251,24 @@ h3, p, span{
 
     .rewiewSlider{
         margin-top: 200px;
+    }
+}
+
+@media only screen and (min-width: 550px) {
+    .heroshot{
+        height: 800px;
+    }
+
+    .heroshotText{
+        margin-bottom: 0px;
+    }
+
+    .productImg img{
+        width: 60%;
+    }
+
+    .closerLook img{
+        width: 60%;
     }
 }
 
@@ -271,6 +289,14 @@ h3, p, span{
 
     .heroshotText{
         margin-top: 40px;
+    }
+
+    .heroshotText p{
+        text-align: center;
+    }
+
+    .productImg img{
+        width: 100%;
     }
 
     .productDescription{
@@ -424,7 +450,7 @@ h3, p, span{
     }
 
     .rewiewSlider p{
-        font-size: 38px;
+        font-size: 32px;
     }
 
     .sectionCallToAction img{ 
